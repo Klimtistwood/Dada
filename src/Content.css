@@ -1,0 +1,116 @@
+.Display-Articles{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 42vw;
+    margin: auto;
+}
+
+.Display-Above{
+    min-height:120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Display-Under{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin:10px;
+    height: 30px;
+}
+.Style-Name{
+font-size: 20px;
+font-weight: bold;
+padding: 10px;
+}
+.Style-Comment{
+font-size: 16px;
+padding: 10px;
+}
+.Under-Name{
+font-size: 14px;
+text-align: right;
+width: 48%;
+}
+
+.Under-Duree{
+    padding-left: 5px;
+    font-size: 10px;
+    text-align: left;
+    width: 48%;
+    color: grey;
+}
+.Style-Flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6vw;
+}
+.App-Content{
+    background-image: url("https://st8.cannypic.com/thumbs/37/375137_632_canny_pic.jpg");
+    background-attachment: fixed;
+    min-height: 100vh;
+    box-shadow: 0px 18px 24px 7px rgba(0,0,0,0.5);
+}
+
+.App-Content p{
+    padding-top: 10px;
+    font-size: 38px;
+    color: white;
+
+}
+.arrow, .gear{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    filter: saturate(0%) contrast(1000%) invert(100%);
+}
+.arrow{
+    left:20px;
+    top: 20px;
+}
+.gear{
+    right:20px;
+    top: 20px;
+}
+.each-slide{
+    width:80vw;
+    margin: auto;
+}
+.Slide{
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+.Img-Slideshow{
+    height: 100px;
+    width: 100px;
+}
+.Slide-Block{
+        min-height:120px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+}
+.Flex-Slide{
+    display: flex;
+    flex-direction: column;
+}
+.containerSlide>p{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}

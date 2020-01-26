@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HomePage from './HomePage'
+import Tale from './Tale';
+import Music from './Musique';
+import Recipe from './Recipe';
+import Sport from './Sport';
+import Science from './Science';
+import Animals from './Animals';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/homepage" component={HomePage} />
+            <Route path="/animaux" component={Animals} />
+            <Route path="/histoire" component={Tale} />
+            <Route path="/recette" component={Recipe} />
+            <Route path="/sport" component={Sport} />
+            <Route path="/musique" component={Music} />
+            <Route path="/science" component={Science} />
+          </Switch>
+
+          <Footer/>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
