@@ -11,11 +11,12 @@ class Footer extends React.Component {
     render() {
         return (
             <footer className="App-Footer">
-                {/* <div className="Player">
+                <div className="leftover"></div>
+                <div className="Player">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/OOjs_UI_icon_play-ltr.svg/1024px-OOjs_UI_icon_play-ltr.svg.png" alt="" />
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Heart-icon-PNG-715x715.png" alt="" />
-                </div> */}
+                </div>
                 {/* <Player ytLink ={this.state.ytLink}/> */}
                 <div className="Foot">
                     <Link to="/">

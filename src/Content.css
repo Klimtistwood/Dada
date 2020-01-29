@@ -55,6 +55,7 @@ width: 48%;
 }
 .App-Content{
     background-image: url("https://st8.cannypic.com/thumbs/37/375137_632_canny_pic.jpg");
+    background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
     box-shadow: 0px 18px 24px 7px rgba(0,0,0,0.5);
@@ -90,8 +91,10 @@ width: 48%;
     margin: auto;
 }
 .Img-Slideshow{
-    height: 100px;
-    width: 100px;
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    max-width: 150px;
 }
 .Slide-Block{
         min-height:120px;
@@ -113,4 +116,8 @@ width: 48%;
     margin: auto;
     position: relative;
     padding: 20px;
+}
+
+.leftover{
+    height: 50px;
 }

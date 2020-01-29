@@ -25,7 +25,6 @@ class App extends React.Component {
             <Route path="/musique" component={Music} />
             <Route path="/science" component={Science} />
           </Switch>
-
           <Footer/>
         </div>
       </Router>

@@ -3,7 +3,7 @@ import React from 'react';
 
 class Content extends React.Component {
     state = {
-        contents: this.props.data
+        contents: this.props.data,
     }
     render() {
 
@@ -26,7 +26,9 @@ class Content extends React.Component {
                        | Durée {content.duree}
                     </div>
                 </div>
+                
             </div>
+            
         )
         return (
             elements
